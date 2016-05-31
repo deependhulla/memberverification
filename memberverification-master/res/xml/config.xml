@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.technoinfotech.com.dvdapps"
+        versionCode   = "10"
+        version   = "1.0"
+>
+
+    <name>DVD Apps</name>
+
+    <description>
+        DVD Test Apps
+    </description>
+
+    <author href="http://www.technoinfotech.com" email="deepen@technoinfotech.com">
+        TechnoInfotech
+    </author>
+ <access origin="*" />
+
+    <preference name="permissions" value="none"/>
+    <preference name="phonegap-version" value="3.6.3" /> 
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <content src="index.html" />
+
+<gap:plugin name="com.chariotsolutions.nfc.plugin" version="0.5.1" />    
+<gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
+<gap:plugin name="com.chariotsolutions.nfc.plugin" version="0.5.1" />
+<gap:plugin name="it.adacto.cordova.device" version="0.1" />
+
+</widget>
